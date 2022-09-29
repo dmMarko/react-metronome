@@ -14,8 +14,12 @@
   color: white;
 }
 
-.App-link {
+a {
   color: #61dafb;
+}
+
+p {
+  color: #DDDDDD;
 }
 
 button {
@@ -34,4 +38,5 @@ button {
   text-align: center;
   position: absolute;
   bottom: 10px;
+  left: 20px
 }
