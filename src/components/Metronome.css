@@ -1,0 +1,30 @@
+.modifier-button {
+    height: 7vw;
+    width: 10vw;
+    font-size: 5vw;
+}
+
+.BPM-view {
+    text-align: center;
+    font-size: 2vw;
+    width: 5vw;
+    height: 4vw;
+    padding-top: 1vw;
+    display: inline-block;
+    border: 3px solid antiquewhite;
+    border-radius: 4px;
+    box-sizing: border;
+    background-color: rgba(231, 231, 231, 0.4);
+    color: black;
+    transform: translateY(-1.2vw);
+    margin: 2vw
+}
+
+.util-button {
+    height: 5vw;
+    width: 29.5vw;
+    font-size: 3vw;
+    margin-bottom: 2.7vw;
+
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(202,208,208,0.2) 2.5%, rgba(202,208,208,0.2) 97.5%, rgba(0,0,0,0) 100%);
+}

@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Metronome from './components/Metronome';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Metronome />
+      <p className='see-also'>
+        see also: 
+        <a href='https://yotam-flask-site.herokuapp.com'> yoti, </a>
+        <a href='https://nirtheking.herokuapp.com/'> soliman, </a> 
+        <a href='https://broshi.herokuapp.com/'> broshi, </a>
+      </p>
     </div>
   );
 }
